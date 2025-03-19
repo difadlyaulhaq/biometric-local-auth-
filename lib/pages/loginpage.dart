@@ -124,7 +124,7 @@ class Loginpage extends StatelessWidget {
                   }
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.purpleAccent,
+                  backgroundColor: Colors.purpleAccent,
                   padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 15),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10),
@@ -136,7 +136,7 @@ class Loginpage extends StatelessWidget {
               ElevatedButton(
                 onPressed: () => _authenticate(context),
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.purpleAccent,
+                  backgroundColor: Colors.purpleAccent,
                   shape: const CircleBorder(),
                   padding: const EdgeInsets.all(20),
                 ),
